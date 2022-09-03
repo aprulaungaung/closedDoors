@@ -29,7 +29,7 @@ for(i=0; i< numberOfButton; i++){
 
         document.querySelector(".lookAtMe").style.visibility = "hidden";
         document.querySelector(".lookAtMe").style.zIndex = "-1";
-
+       videoA.pause();
       },32000)
 
       break;

@@ -135,7 +135,7 @@ background-image: url("https://transparenttextures.com/patterns/tileable-wood-co
     -webkit-transform: translate(0);
   }
   100%{
-    -webkit-transform: translate(-150px, -600px);
+    -webkit-transform: translate(-150px, -700px);
   }
   }
   .motherF {
@@ -143,7 +143,7 @@ background-image: url("https://transparenttextures.com/patterns/tileable-wood-co
 }
 
 .beingClosed {
-  left: 6.25rem;
+  left: 25px;
 }
 .fbi {
   left: -50%;
