@@ -28,6 +28,7 @@ for(i=0; i< numberOfButton; i++){
         document.querySelector(".a").style.visibility = "visible";
 
         document.querySelector(".lookAtMe").style.visibility = "hidden";
+        document.querySelector(".lookAtMe").style.zIndex = "-1";
 
       },32000)
 
