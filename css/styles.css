@@ -1,0 +1,145 @@
+body{
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: #003842;
+background-image: url("https://transparenttextures.com/patterns/tileable-wood-colored.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.door-container{
+  padding: 0 30px 0 30px;
+}
+.door {
+  height: 160px;
+  width: 100px;
+  background-image: url("../images/door.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+  border:none;
+}
+.header-images {
+  position: relative;
+  text-align: center;
+}
+.beingClosed {
+  position: absolute;
+  height: 70px;
+  width: 300px;
+  left:7.5rem;
+  top: 2.5rem;
+}
+.aung {
+  height: 130px;
+  padding: 30px;
+  opacity: 0.7;
+}
+.tree {
+  position: absolute;
+  width: 300px;
+  right:-80px;
+  z-index: 10;
+}
+.container-c,.container-d, .container-f, .container-g, .container-h,.container-i, .container-a, .container-b, .container-j, .container-e {
+  position: relative;
+}
+.container-h {
+  text-align: center;
+  z-index: 1;
+}
+.girlVid, .girlCry,.motherF,.birthday, .driveAway, .lookAtMe, .necromancy, .fbi {
+  position: absolute;
+  width: 320px;
+  height: 176px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  visibility: hidden;
+}
+.ghostF {
+  position: absolute;
+  height: 50px;
+
+ top: 40%;
+ left: 40%;
+ z-index: -1;
+}
+
+.cartoon {
+  position: absolute;
+  height: 100px;
+  left: 35%;
+  top: 35%;
+  z-index:-1;
+  visibility:hidden;
+}
+.ec, .gc {
+  left:40%;
+  top:30%;
+}
+.ballom {
+  position: absolute;
+  height: 200px;
+  left: 30%;
+  z-index: -1;
+  visibility: hidden;
+}
+
+@-webkit-keyframes ghostFace {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(10);
+  }
+
+}
+
+
+@-webkit-keyframes flyBallom {
+0% {
+  -webkit-transform: translate(0);
+}
+100%{
+  -webkit-transform: translate(-1500px, -500px);
+}
+
+}
+
+@media (max-width:600px){
+  .tree {
+    width:200px;
+  }
+  .driveAway {
+    height: 160px;
+    width: 100px;
+    top: 10px;
+    left: 20px;
+  }
+  .cartoon {
+    left: 30%;
+  }
+  .ballom {
+    height: 150px;
+    z-index: 1;
+  }
+  .birthday {
+    left: -90%;
+  }
+  @-webkit-keyframes flyBallom {
+  0%{
+    -webkit-transform: translate(0);
+  }
+  100%{
+    -webkit-transform: translate(200px, -600px);
+  }
+  }
+  .motherF {
+    left: -95%;
+}
+
+
+.fbi {
+  left: -50%;
+}
+}
